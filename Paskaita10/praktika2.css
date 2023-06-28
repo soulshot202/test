@@ -1,9 +1,8 @@
-body{
-    background-color: rgb(85, 84, 84);
+body {
+  background-color: rgb(85, 84, 84);
 }
 main {
   background-color: rgb(85, 84, 84);
-  /* width: 90%; */
   margin: auto;
   text-align: center;
   color: white;
@@ -30,8 +29,6 @@ button {
   padding: 5px 10px;
   margin-bottom: 20px;
   margin-top: 10px;
-  /* box-shadow: 2px 2px black, -2px -2px violet; */
-  
 }
 button:hover {
   background-color: darkgreen;
@@ -48,6 +45,6 @@ input:invalid {
 input:valid {
   border: 2px solid green;
 }
-input:required{
-    border-left: 2px solid violet;
+input:required {
+  border-left: 2px solid violet;
 }
