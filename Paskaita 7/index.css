@@ -1,0 +1,9 @@
+td, th {border: 1px solid black;
+padding: 1rem;
+text-align: center;}
+table {
+border: 1px solid black;
+border-collapse: collapse;}
+.red {background-color: red;}
+.tab2 th {background-color: lightblue;}
+.tab2 {margin-top: 10px;}

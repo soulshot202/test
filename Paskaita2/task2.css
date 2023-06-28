@@ -1,0 +1,27 @@
+.logo{width: 22px;}
+.center-text{
+    text-align: center;
+}
+header, footer,section
+{background-color: lightpink;}
+.paragrafo-plotis{width: 50%;}\
+.float-left{}
+.inline{display: inline;}
+.right-text{text-align: right;}
+.image-size{width: 300px;}
+.right {
+    display: -webkit-box;
+    margin-left: auto;
+    width: 20%;
+  }
+  .left {
+    display: -webkit-box;
+    margin-right: auto;
+    width: 20%;
+  }
+  .center {
+    display: -webkit-box;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+  }
