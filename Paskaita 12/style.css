@@ -58,6 +58,14 @@ header div span {
   margin: 3rem auto;
   padding: 1rem 0;
 }
+.edit-task-form {
+  width: 30rem;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  padding: 1rem 0;
+}
 .task-form p {
   font-size: 10px;
   margin: 5px 0px 20px 0px;
@@ -135,4 +143,69 @@ main {
 }
 .task-end .fa-check-circle {
   visibility: visible;
+}
+.edit-task-form h4 {
+  text-align: center;
+  font-weight: 550;
+}
+.edit-button {
+  width: 100%;
+  background-color: rgb(100, 92, 255);
+  color: white;
+  border: none;
+  padding: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.edit-button:hover {
+  background-color: rgb(94, 27, 156);
+}
+.edit-task-form p {
+  text-align: center;
+  font-size: small;
+  margin-top: 15px;
+}
+/* .task-in {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: space-between;
+} */
+.task-in div {
+  margin: 10px 0px;
+}
+.task-in input {
+  width: 70%;
+}
+.task-in input[type="checkbox"] {
+}
+.div2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.back-btn {
+  /* width: 10rem; */
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+  padding: 5px 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.back-btn:hover {
+  opacity: 0.7;
+}
+.task-in #id {
+  border: none;
+}
+.task-in #name {
+  border: 1px solid lightgray;
+  background-color: rgb(248, 250, 252);
+  border-radius: 3px;
+}
+.chk {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
