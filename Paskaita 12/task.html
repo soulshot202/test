@@ -47,25 +47,29 @@
         <form action="" method="post">
           <h4>Edit Task</h4>
           <div class="task-in">
-            <div class="div2"><label for="ID">Task ID</label>
-            <input type="text" name="ID" id="id" value="123456789" readonly></div>
-             <div class="div2"><label for="name">Name</label>
-            <input type="text" id="name" value="Take out trashes" /></div>
-            <div class="chk"><label for="check" >Completed</label>
-            <input type="checkbox"></div>
-            
+            <div class="div2">
+              <label for="ID">Task ID</label>
+              <input type="text" name="ID" id="id" value="123456789" readonly />
             </div>
-            <button
-              type="submit"
-              class="edit-button">
-              Edit
-            </button>
-          
+            <div class="div2">
+              <label for="name">Name</label>
+              <input type="text" id="name" value="Take out trashes" />
+            </div>
+            <div class="chk">
+              <label for="check">Completed</label> <input type="checkbox" />
+            </div>
+          </div>
+          <button type="submit" class="edit-button">Edit</button>
+
           <p>There Was An Error</p>
         </form>
       </div>
       <div>
-        <button type="button" name="back" class="back-btn">Back To Tasks</button>
+        <a href="index.html">
+          <button type="button" name="back" class="back-btn">
+            Back To Tasks
+          </button></a
+        >
       </div>
     </main>
   </body>
