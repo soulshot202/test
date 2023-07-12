@@ -1,0 +1,44 @@
+body{
+    font-size: 30px;
+    height: 200vh;
+}
+.relative{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: -100px;
+    top: 100px;
+    background-color: aquamarine;
+    z-index: -1;
+}
+.fixed{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: fixed ;
+    bottom: 100px;
+}
+.sticky{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    position: sticky;
+}
+.Absolute{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+.tevas{
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid green;
+    position: relative;
+    right: -250px;
+    z-index: -1;
+}
