@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="todo edit test webpage" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
@@ -26,15 +27,17 @@
         <h4>Best <span>ToDo</span> App</h4>
         <ul>
           <li>
-            <a href="https://www.facebook.com"
+            <a href="https://www.facebook.com" aria-label="facebook link"
               ><i class="fab fa-facebook"></i
             ></a>
           </li>
           <li>
-            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.twitter.com" aria-label="twitter link"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com"
+            <a href="https://www.linkedin.com" aria-label="linkedin link"
               ><i class="fab fa-linkedin"></i
             ></a>
           </li>
@@ -49,24 +52,31 @@
           <div class="task-in">
             <div class="div2">
               <label for="ID">Task ID</label>
-              <input type="text" name="ID" id="id" value="123456789" readonly />
+              <input type="text" name="ID" id="ID" value="123456789" readonly />
             </div>
             <div class="div2">
               <label for="name">Name</label>
               <input type="text" id="name" value="Take out trashes" />
             </div>
             <div class="chk">
-              <label for="check">Completed</label> <input type="checkbox" />
+              <label for="check">Completed</label>
+              <input type="checkbox" id="check" />
             </div>
           </div>
-          <button type="submit" class="edit-button">Edit</button>
+          <button type="submit" class="edit-button" aria-label="edit button">
+            Edit
+          </button>
 
           <p class="red">There Was An Error</p>
         </form>
       </div>
       <div>
         <a href="index.html">
-          <button type="button" name="back" class="back-btn">
+          <button
+            type="button"
+            name="back"
+            class="back-btn"
+            aria-label="back button">
             Back To Tasks
           </button></a
         >
