@@ -1,0 +1,76 @@
+.test {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  /* transition: width 2s, height 3s;  */
+  transition: all 3s;
+  /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition-delay: 2s;
+}
+div{
+    margin-bottom: 20px;
+}
+.test:hover {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  /* transition: all 2s; */
+}
+.animetest{
+    background-color: azure;
+    width: 200px;
+    height: 200px;
+    animation: pvz 3s 2 linear;
+    animation-delay: 2s;
+
+}
+@keyframes pvz {
+    0% {
+        background-color: blue;
+    }
+    25% {
+        background-color: green;
+    }
+    66%{
+        background-color: black;
+
+    }
+    100% {
+        background-color: aquamarine;
+    }
+    
+}
+.transform {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* transform: translate(50px, 70px) */
+    animation: spin 2s infinite linear;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+       transform: rotate(360deg);
+    }
+    
+    
+}
+button{
+        width: 150px;
+        height: 50px;
+        background-color: yellow;
+        border-radius: 10px;
+        animation: pulse 3s infinite linear;
+    }
+    @keyframes pulse {
+        0% {transform: scale(1);
+        } 
+        50% {
+            transform: scale(1.5);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
