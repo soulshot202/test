@@ -330,7 +330,8 @@ nav ul li a {
   padding-top: 20px;
 }
 @media screen and (min-width: 768px) {
-  .gallery-cont {display: flex;
+  .gallery-cont {
+    display: flex;
   }
   .gallery-cont img {
     max-width: 25vw;
@@ -388,21 +389,20 @@ nav ul li a {
   font-size: 0.7rem;
   outline: none;
 }
-@media screen and (min-width: 768px){
-  .submit-btn{
+@media screen and (min-width: 768px) {
+  .submit-btn {
     max-width: 15%;
   }
-  .offers h2{
+  .offers h2 {
     letter-spacing: 8px;
     font-size: 2rem;
     margin: 5px 5px;
   }
-  .offers .upd-box h5{
-    
+  .offers .upd-box h5 {
     font-size: 1rem;
     margin-top: 5px;
-    margin-left: 10px;
-    
+    margin-right: auto;
+    padding-left: 10px;
   }
 }
 
@@ -433,13 +433,12 @@ footer p {
   font-size: 0.6rem;
   /* margin-bottom: 60px; */
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .nav-bottom a,
-  footer p
-   {
-    font-size: 2rem;
+  footer p {
+    font-size: 1rem;
   }
-  .nav-bottom .soc-icons i{
-    display: none;
+  footer .soc-icons {
+    font-size: 1rem;
   }
 }
