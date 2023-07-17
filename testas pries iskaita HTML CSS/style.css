@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+header img {
+  max-height: 35px;
+}
+header i {
+  color: grey;
+  font-size: 1.6rem;
+}
+.sec-1 {
+  position: relative;
+}
+.sec-1 img {
+  max-height: 400px;
+  position: absolute;
+  right: -190px;
+  top: -50px;
+}
+.sec-1 p {
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+.sec-1 h5 {
+  color: rgb(192, 62, 192);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.sec-1 h1 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+.sec1-txt {
+  max-width: 70vw;
+  margin-left: 20px;
+}
+.sec-1 button {
+  background-color: white;
+  border-radius: 40px;
+  padding: 20px 40px;
+  font-weight: bolder;
+  border: 3px solid gold;
+  border-style: solid;
+  margin-bottom: 50px;
+}
+.sec-2 {
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 130, 130),
+    rgb(216, 140, 41),
+    rgb(81, 158, 92)
+  );
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+.sec-2 h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0;
+}
+.sec-2 p {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+.sec-3 {
+  /* display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 120px;
+    padding: 20px; */
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+}
+.sec-3 img {
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+  margin: 20px;
+}
+.sec-3 div {
+  width: 100px;
+  height: 50px;
+  overflow: hidden;
+  /* display: flex;
+    flex-wrap: wrap; */
+}
+.hidden-comp {
+  display: none;
+}
