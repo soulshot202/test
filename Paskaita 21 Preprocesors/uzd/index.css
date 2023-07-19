@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(150, 149, 149);
+}
+
+> .container {
+  width: 80%;
+  margin: auto;
+}
+> .container > img {
+  width: 100px;
+}
+
+nav {
+  display: flex;
+  background-color: white;
+  box-shadow: 3px 3px 5px black;
+  padding: 1.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav .grid-container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 100px 200px;
+  gap: 2rem;
+}
+nav .grid-container > div {
+  background-color: white;
+  box-shadow: 3px 3px 5px black;
+  border-radius: 15px;
+}
+@media screen and (max-width: 765px) {
+  nav nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 200px);
+  }
+}/*# sourceMappingURL=index.css.map */

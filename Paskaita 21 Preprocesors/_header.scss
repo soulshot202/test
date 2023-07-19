@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 100px;
+  }
+  div {
+    display: flex;
+    gap: 10px;
+    a {
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "_vars.scss";
+// @import "_header0.scss ;"
+
+h1,
+p {
+  color: $primary-color;
+}
+
+@mixin basic-element($count) {
+  background-color: $color;
+  font-size: $count;
+  border: $count solid black;
+}
+.test {
+  color: blue;
+  @include basic-element(30px);
+  background-color: $primary-color;
+}
+.test2 {
+  @include basic-element(50px);
+}
