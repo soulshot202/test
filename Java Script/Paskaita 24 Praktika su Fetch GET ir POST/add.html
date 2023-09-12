@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/FavIcon/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <script type="module" src="add.js"></script>
+    <title>Paskaita 24 Praktika su Fetch GET ir POST</title>
+  </head>
+  <body>
+    <header>
+      <div
+        class="container-fluid text-bg-success py-4 ps-5"
+        style="--bs-bg-opacity: 0.6">
+        <div class="my-auto">
+          <h6 class="mb-0 fs-3">Add your property for sale</h6>
+          <p class="mb-0">Yes, you can sell where you live and get cash!</p>
+        </div>
+      </div>
+    </header>
+    <div class="ps-5 my-3">
+      <p class="fw-bold underline"><u>Add property</u>---></p>
+      <form action="" id="addForm" class="width90">
+        <label for="imgUrl" class="fw-bold">img</label><br />
+        <input
+          type="url"
+          id="imgUrl"
+          style="width: 90%"
+          placeholder="https://gifdb.com/images/high/loading-forever-skeleton-remains-w98gv9ncvibv89c9.gif" /><br />
+        <label for="price" class="fw-bold">Price, EUR</label><br />
+        <input
+          type="number"
+          name=""
+          id="price"
+          style="width: 90%"
+          placeholder="Enter your price.." /><br />
+        <label for="description" class="fw-bold">Description</label><br />
+        <textarea
+          name=""
+          id="description"
+          cols="30"
+          rows="10"
+          style="width: 90%"
+          placeholder="Can you say more about this property?"></textarea
+        ><br />
+        <label for="city" class="fw-bold">City</label><br />
+        <select name="city" id="city">
+          <option value="Vilnius">Vilnius</option>
+          <option value="Kaunas">Kaunas</option>
+          <option value="Klaipeda">Klaipėda</option>
+          <option value="Siauliai">Šiauliai</option>
+          <option value="Panevezys">Panevėžys</option></select
+        ><br />
+        <br /><button
+          id="addButton"
+          type="submit"
+          class="bg-success p-1 px-2 text-light rounded">
+          Add property</button
+        ><button
+          id="cancelButton"
+          type="submit"
+          class="bg-danger p-1 px-4 ms-2 text-light rounded">
+          Cancel
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
